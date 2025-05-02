@@ -1,0 +1,17 @@
+[project]
+name = "ipod-tools"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "dotenv>=0.9.9",
+    "httpx>=0.28.1",
+    "llm>=0.24.2",
+    "llm-gemini>=0.18.1",
+    "pandas>=2.2.3",
+    "pyarrow>=19.0.1",
+    "spotipy>=2.25.1",
+    "tenacity>=9.1.2",
+    "tqdm>=4.67.1",
+]
